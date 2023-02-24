@@ -1,34 +1,89 @@
 body{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
+}
+img{
+    width: 150px;
+    text-align: center;
+}
+div{
+    width: 650px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #header{
+     
     width: 150px;
-    text-align: center;
     background-color: white;
+    
 }
 
-hr{
+#orange-line{
+   margin: 0; 
     border-color: orange;
 }
 .titoli{
     width: 650px;
 }
-h1, h2, h4{
-    padding: 10px;
+h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
 }
 
+h3{
+    text-align: left;
+    margin-bottom: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+
 h4{
-    background-color: rgb(243, 228, 208);
+    padding: 8px;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(249, 244, 236);
     color: green ;
+}
+
+h5{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: auto;
+}
+
+h6{
+    text-align: left;
+    color: purple;
+    margin-bottom: auto;
 }
 
 .focaccia{
     text-align: center;
     width: 650px;
     border-radius: 10px;
+    box-shadow: 1px 1px 20px grey;
 
+}
+
+p{
+    text-align: center;
+}
+.blue-line{
+    border-color: aqua;
+}
+
+#align{
+    margin-left: 40px;
+    text-align: justify;
+}
+ul{
+    text-align: left;
+}
+ol{
+    text-align: left;
 }
