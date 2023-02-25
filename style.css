@@ -1,33 +1,35 @@
+/*allineo al centro il logo*/
 body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
 }
+
+/*imposto la dimensione del logo */
 img{
     width: 150px;
     text-align: center;
 }
+
+/*imposto le dimensioni del contenitore*/
 div{
     width: 650px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#header{
-     
-    width: 150px;
-    background-color: white;
-    
-}
-
+/*imposto id per il colore della linea sotto il logo*/
 #orange-line{
    margin: 0; 
     border-color: orange;
 }
+
+/*imposto la classe per larghezza in cui devono entrare h1 e h3*/
 .titoli{
     width: 650px;
 }
+
 h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -62,25 +64,33 @@ h6{
     margin-bottom: auto;
 }
 
+/*imposto la classe per le proprietà della foto principale*/
 .focaccia{
     text-align: center;
     width: 650px;
     border-radius: 10px;
     box-shadow: 1px 1px 20px grey;
-
 }
 
+span{
+    color: green;
+}
 p{
     text-align: center;
 }
+
+/*imposto id per il colore delle linee in basso*/
 .blue-line{
     border-color: aqua;
 }
 
+/*imposto id per il paragrafo in basso*/
 #align{
     margin-left: 40px;
     text-align: justify;
 }
+
+/*impostazioni per le liste*/
 ul{
     text-align: left;
 }
